@@ -1,0 +1,41 @@
+fortegigas@DESKTOP-P6SC0O7:~$ echo hello world
+hello world
+fortegigas@DESKTOP-P6SC0O7:~$ passwd
+Changing password for fortegigas.
+(current) UNIX password:
+Enter new UNIX password:
+Retype new UNIX password:
+Password unchanged
+Enter new UNIX password:
+Retype new UNIX password:
+passwd: password updated successfully
+fortegigas@DESKTOP-P6SC0O7:~$ date
+Mon Apr 15 18:03:26 DST 2019
+fortegigas@DESKTOP-P6SC0O7:~$ hostname
+DESKTOP-P6SC0O7
+fortegigas@DESKTOP-P6SC0O7:~$ arch
+x86_64
+fortegigas@DESKTOP-P6SC0O7:~$ uname -a
+Linux DESKTOP-P6SC0O7 4.4.0-17763-Microsoft #379-Microsoft Wed Mar 06 19:16:00 PST 2019 x86_64 x86_64 x86_64 GNU/Linux
+fortegigas@DESKTOP-P6SC0O7:~$ dmesg
+[    0.006086]  Microsoft 4.4.0-17763.379-Microsoft 4.4.35
+fortegigas@DESKTOP-P6SC0O7:~$ uptime
+ 18:04:17 up 5 min,  0 users,  load average: 0.52, 0.58, 0.59
+fortegigas@DESKTOP-P6SC0O7:~$ who am i
+fortegigas@DESKTOP-P6SC0O7:~$ whoami
+fortegigas
+fortegigas@DESKTOP-P6SC0O7:~$ who
+fortegigas@DESKTOP-P6SC0O7:~$ id
+uid=1000(fortegigas) gid=1000(fortegigas) groups=1000(fortegigas),4(adm),20(dialout),24(cdrom),25(floppy),27(sudo),29(audio),30(dip),44(video),46(plugdev),108(lxd),114(netdev)
+fortegigas@DESKTOP-P6SC0O7:~$ last
+
+wtmp begins Mon Apr 15 17:53:21 2019
+fortegigas@DESKTOP-P6SC0O7:~$ finger
+
+Command 'finger' not found, but can be installed with:
+
+sudo apt install finger
+
+fortegigas@DESKTOP-P6SC0O7:~$ w
+ 18:05:10 up 6 min,  0 users,  load average: 0.52, 0.58, 0.59
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
