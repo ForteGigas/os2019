@@ -1,0 +1,8 @@
+Ubuntu@Ubuntu-VirtualBox:~$ ps -e|grep firefox
+ 2939 ?        00:00:06 firefox
+Ubuntu@Ubuntu-VirtualBox:~$ ps -o nlwp 2939
+NLWP
+  52
+
+Ubuntu@Ubuntu-VirtualBox:~$ ls /proc/2939/task|wc -w
+52
